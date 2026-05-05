@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+
+# Trained model weights (large files)
+saved_models/*.weights.h5
+saved_models/*.keras
+saved_models/*.pb
+!saved_models/.gitkeep
+
+# Logs
+logs/
+*.log
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Distribution
+*.tar.gz
+*.zip
